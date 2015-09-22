@@ -1,0 +1,16 @@
+document
+  catalogTemplate
+    banner
+      title Uncle Nagy's House
+    list
+      section
+        each season in seasons
+          listItemLockup
+            title= season.name
+            decorationLabel= season.date
+            relatedContent
+              grid
+                section
+                  each ep in season.episodes
+                    lockup(videoURL="#{ep.video}")
+                      img(src="#{ep.image}" width="500" height="308")

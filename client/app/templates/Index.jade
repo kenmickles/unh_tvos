@@ -1,0 +1,40 @@
+document
+  head
+    style
+      | .text-muted { color: rgba(170, 170, 170, 1); }
+  productBundleTemplate
+    background
+      img(src="${this.BASEURL}images/bg.jpg")
+    banner
+      stack
+        title Uncle Nagy’s House
+        subtitle An independent sitcom
+        text.text-muted from spoonfullofpoo.com
+        description(allowsZooming="true") This is the story of New Plagmanton, a town populated by corrupt politicians, time travelers, sociopathic mail carriers, really small cats, and the greatest space rock band of all time. The guy at the center of the action is convicted felon and reality TV celebrity, Jon Tomlinson. If it weren’t for Jon’s mysterious benefactor, Uncle Nagy, he might really be in trouble.
+    each season in seasons
+      shelf
+        header
+          title #{season.name}
+        section
+          each ep in season.episodes
+            lockup(videoURL="#{ep.video}" videoID="#{ep.vimeo_id}")
+              if season.name == "Series Finale"
+                img(src="${this.BASEURL}images/#{ep.image}" width="1000" height="562")
+              else
+                img(src="${this.BASEURL}images/#{ep.image}" width="320" height="180")
+              
+              if ep.special
+                title.showTextOnHighlight #{ep.title}
+              else
+                title.showTextOnHighlight #{ep.number}: #{ep.title}
+
+              //- overlay
+              //-   progressBar(value="${(localStorage.getItem('resumeTime_#{ep.vimeo_id}') || 0)/#{ep.duration}}")
+              relatedContent
+                infoTable
+                  header
+                    title #{ep.title}
+                  info
+                    header
+                      title #{ep.date}
+                    description #{ep.synopsis}
