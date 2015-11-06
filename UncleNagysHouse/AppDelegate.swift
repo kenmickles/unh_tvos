@@ -13,8 +13,8 @@ import TVMLKit
 class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDelegate {
     var window: UIWindow?
     var appController: TVApplicationController?
-//    static let TVBaseURL = "https://unh-appletv.s3.amazonaws.com/"
-    static let TVBaseURL = "http://localhost:9001/"
+    static let TVBaseURL = "https://unh-appletv.s3.amazonaws.com/"
+//    static let TVBaseURL = "http://localhost:9001/"
     static let TVBootURL = "\(AppDelegate.TVBaseURL)js/application.js"
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {

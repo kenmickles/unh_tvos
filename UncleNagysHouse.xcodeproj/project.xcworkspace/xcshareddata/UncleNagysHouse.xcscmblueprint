@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4F2B33E28C2E625DF0CF7D6F003AD3B6463C9D34",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4F2B33E28C2E625DF0CF7D6F003AD3B6463C9D34" : 0,
+    "32DEE0DDDA953AC87A6E0C74EA742F9977651FC8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A7ADF9D6-672E-48F1-BEFE-098D5694665D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4F2B33E28C2E625DF0CF7D6F003AD3B6463C9D34" : "unh_tvos\/",
+    "32DEE0DDDA953AC87A6E0C74EA742F9977651FC8" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UncleNagysHouse",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UncleNagysHouse.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:bucksphp\/test-174c1af9-830a-4a20-9c88-92fa1b966ebf-kenmickles.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "32DEE0DDDA953AC87A6E0C74EA742F9977651FC8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kenmickles\/unh_tvos.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4F2B33E28C2E625DF0CF7D6F003AD3B6463C9D34"
+    }
+  ]
+}
